@@ -17,8 +17,10 @@ paths:
               schema:
                 $ref: "#/components/schemas/User"
               examples:
-                UserValue:
+                UserValueOne:
                   value: '{"id": "3", "name": "Shweta", "nation": "Spain"}'
+                UserValueTwo:
+                  value: '{"id": "4", "name": "Harleen", "nation": "India"}'                
         
 components:
   schemas:
